@@ -5,11 +5,11 @@ class MyBadge extends React.Component {
     render() {
         return (
             <Button variant="primary">
-                Profile <Badge variant="light">9</Badge>
+                {this.props.category} <Badge variant="light">9</Badge>
                 <span className="sr-only">unread messages</span>
             </Button>
         )
     }
 }
 
-export default MyBadge 
+export default MyBadge
