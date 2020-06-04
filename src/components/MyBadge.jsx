@@ -4,8 +4,8 @@ import { Button, Badge } from 'react-bootstrap'
 class MyBadge extends React.Component {
     render() {
         return (
-            <Button variant="primary">
-                {this.props.category} <Badge variant="light">9</Badge>
+            <Button variant="dark">
+                {this.props.category} <Badge variant="light"></Badge>
                 <span className="sr-only">unread messages</span>
             </Button>
         )
