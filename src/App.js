@@ -6,7 +6,6 @@ import { Container, Row } from 'react-bootstrap'
 import fantasy from "./data/fantasy.json"
 
 
-
 function App() {
   return (
     <div className="App">

@@ -5,7 +5,7 @@ class MyBadge extends React.Component {
     render() {
         return (
             <Button variant="primary">
-                {this.props.category} <Badge variant="light">9</Badge>
+                {this.props.category} <Badge variant="dark"></Badge>
                 <span className="sr-only">unread messages</span>
             </Button>
         )
